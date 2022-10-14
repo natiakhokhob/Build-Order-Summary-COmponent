@@ -3,28 +3,7 @@
     margin=0;
     padding: 0;
 }
-@media only screen and (min-width: 600px) {
-    .background-imageMobile{
-        display: none;
-    }
-    .background-imageWeb{
-        display: block;
-        
-        
-    }
-  
 
-    
-    
-@media only screen and (max-width: 600px) {
-    .background-imageWeb{
-        display:none;
-}
-    .background-imageMobile{
-        display: block;
-    }
-    
-}
 
 body{
     height: 100vh;
