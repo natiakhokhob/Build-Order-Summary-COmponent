@@ -9,21 +9,26 @@
 
 body{
     height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
     background-color:  #F2F2F2;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    
     }
-   
+
 
 
 .container{
     
+    
     height: 697px;
     width: 450px;
     border-radius: 20px;
-    background-color: #FFFFFF;;
+    background-color: #FFFFFF;
+   
+    
 
 }
 .main-photo{
