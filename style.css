@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 102px 8px 101px 8px;
     
     }
 
@@ -27,6 +28,7 @@ body{
     width: 450px;
     border-radius: 20px;
     background-color: #FFFFFF;
+    
    
     
 
