@@ -151,9 +151,17 @@ justify-content: center;
     text-decoration-line: none;
     margin: 0px 0px 48px 0px;
 }
-@media screen and(min-width: 375px){
+@media screen and(max-width: 900px){
     body{
         background-image: url(images/pattern-background-mobile.svg);
+    }
+    .container{
+        height: 160px;
+width: 327px;
+left: 0px;
+top: 0px;
+
+
     }
 }
 
