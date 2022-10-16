@@ -7,16 +7,18 @@
     
 
 
+    
+
 body{
     height: 100vh;
-    background-image: url(images/pattern-background-desktop.svg);
+    background-image: url(images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-color:  #F2F2F2;
     display: flex;
     justify-content: center;
     align-items: center;
     
-    overflow: hidden;
+    overflow:hidden;
     
     }
 
@@ -24,9 +26,12 @@ body{
 
 .container{
     
-    
+    /*
     height: 697px;
     width: 450px;
+    */
+    width: 327px;
+    height:567px;
     border-radius: 20px;
     background-color: #FFFFFF;
     
@@ -35,6 +40,10 @@ body{
 
 }
 .main-photo{
+    height: 160px;
+width: 327px;
+
+
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -63,7 +72,8 @@ line-height: 37px;
     font-size: 16px;
     line-height: 26px;
 
-    margin: 17px 48px 20px 48px;
+     margin: 16px 32px 24px 32px;
+
 }
 .content-container{
 
@@ -114,20 +124,28 @@ text-decoration-line: underline;
 
 
 }
+.change>a:hover{
+    cursor: pointer;
+    color: #766CF1;
+}
 
 .payment>a{
-height: 50px;
-width: 354px;
-left: 0px;
-top: 0px;
+    height: 50px;
+    width: 279px;
+    left: 0px;
+    top: 0px;
+    border-radius: 11px;
+    
 border-radius: 11px;
 background-color: #382AE1;
 display: flex;
 justify-content: center;
     align-items: center;
-   margin:32px 48px 32px 48px;
+   margin: 0px 24px 24px 24px;
+  
 
 }
+
 
 .payment>a{
 color: #FFFFFF;
@@ -138,7 +156,10 @@ font-size: 15px;
 line-height: 20px;
 text-decoration-line: none;
 }
-
+.payment>a:hover{
+    cursor: pointer;
+    background-color:#766CF1;
+}
 .cancel>a{
 color:#717FA6;
 font-family: 'Red Hat Display';
@@ -150,26 +171,39 @@ display: flex;
 justify-content: center;
     align-items: center;
     text-decoration-line: none;
-    margin: 0px 0px 48px 0px;
-}
-@media screen and(max-width: 900px){
-    body{
-        background-image: url(images/pattern-background-mobile.svg);
-    }
-    .container{
-        height: 160px;
-width: 327px;
-left: 0px;
-top: 0px;
-
-
-    }
+    margin: 0px 0px 32px 0px;
 }
 
-@media screen and(min-width:900){
+.cancel>a:hover{
+    cursor: pointer;
+    color:#1F2E55;
+}
+@media screen and (min-width: 600px) {
     body{
         background-image: url(images/pattern-background-desktop.svg);
     }
-    
+    .container{
+        height: 697px;
+    width: 450px;
+    }
+    .main-photo{
+        height: 220px;
+width: 450px;
+    }
+    .payment>a{
+        height: 50px;
+        width: 354px;
+        left: 0px;
+        top: 0px;
+        border-radius: 11px;
+        margin: 0px 48px 47px 48px;
+        
+        
+    }
+    .text1{
+        margin: 17px 48px 20px 48px;
+    }
+    .cancel>a{
+       
+    }
 }
-    
