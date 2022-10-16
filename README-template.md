@@ -20,7 +20,7 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.JPG)
 ![](./screenshotMobile.jpg)
 
 
